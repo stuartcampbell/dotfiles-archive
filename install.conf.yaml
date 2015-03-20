@@ -2,6 +2,7 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.i3: i3
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
