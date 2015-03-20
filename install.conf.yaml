@@ -2,7 +2,12 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.i3: i3
+    ~/.bin.Darwin: bin.Darwin/
+    ~/.i3: i3/
+
+- shell:
+  - rm ~/bin.test
+  - ln -s ~/.bin.`uname` ~/bin.test
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
