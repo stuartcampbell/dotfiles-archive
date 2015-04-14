@@ -2,14 +2,13 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.bin.Darwin: bin.Darwin/
-    ~/.bin.Linux:  bin.Linux/
+    ~/.gitconfig:  gitconfig
     ~/.i3: i3/
 
 # Create a symlink to the correct bin directory
 - shell:
-  - rm -f ~/bin
-  - ln -s ~/.bin.`uname` ~/bin  
+  #- rm -f ~/bin
+  - ln -s ~/.bin.`lowercase \`uname\`` ~/bin  
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
