@@ -1,0 +1,6 @@
+
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/helpfiles
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
