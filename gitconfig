@@ -2,6 +2,13 @@
 [include]
 	path = ~/.gitconfig_local
 
+[alias]
+	update-submodules = submodule update --init --recursive
+	upgrade-submodules = submodule update --init --remote
+
+[color]
+	ui = auto
+
 [user]
 	email = stuart@stuartcampbell.me
 	name = Stuart Campbell
