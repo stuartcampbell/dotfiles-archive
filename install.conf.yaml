@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
+    ~/.screenrc screenrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
