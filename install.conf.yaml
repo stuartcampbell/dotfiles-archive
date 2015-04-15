@@ -1,14 +1,10 @@
-- clean: ['~']
+- clean: ['~','~/.config']]
 
 - link:
     ~/.dotfiles: ''
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
-
-# Create a symlink to the correct bin directory
-- shell:
-  #- rm -f ~/bin
-  - ln -s ~/.bin.`lowercase \`uname\`` ~/bin  
+    ~/.zsh zsh/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
