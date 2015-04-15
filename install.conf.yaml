@@ -4,7 +4,13 @@
     ~/.dotfiles: ''
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
-    ~/.screenrc screenrc
+    ~/.screenrc: screenrc
+    ~/.zpretzo: zpretzo/
+    ~/.zlogout: zprezto/runcoms/zlogout
+    ~/.zpreztorc: zprezto/runcoms/zpreztorc
+    ~/.zprofile: zprezto/runcoms/zprofile
+    ~/.zshenv: zprezto/runcoms/zshenv
+    ~/.zshrc: zprezto/runcoms/zshrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
