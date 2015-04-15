@@ -5,3 +5,5 @@
 [user]
 	email = stuart@stuartcampbell.me
 	name = Stuart Campbell
+[push]
+	default = simple
