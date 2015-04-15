@@ -3,5 +3,5 @@
 	path = ~/.gitconfig_local
 
 [user]
-	name = Stuart Campbell
 	email = stuart@stuartcampbell.me
+	name = Stuart Campbell

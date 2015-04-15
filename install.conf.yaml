@@ -1,10 +1,9 @@
-- clean: ['~','~/.config']]
+- clean: ['~', '~/.config']
 
 - link:
     ~/.dotfiles: ''
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
-    ~/.zsh zsh/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
