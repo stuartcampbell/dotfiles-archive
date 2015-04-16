@@ -1,4 +1,5 @@
-- clean: ['~', '~/.config']
+- clean: 
+['~', '~/.config']
 
 - shell:
   - [mkdir -p ~/bin]
@@ -11,13 +12,17 @@
     ~/.i3: i3/
     ~/.screenrc: screenrc
     ~/.wallpapers: wallpapers
+    #~/.zshrc: zshrc
+
+# zprezto setup
+- link:
     ~/.zprezto: zprezto/
     ~/.zlogout: zprezto/runcoms/zlogout
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
     ~/.zprofile: zprezto/runcoms/zprofile
     ~/.zshenv: zprezto/runcoms/zshenv
     ~/.zshrc: zprezto/runcoms/zshrc
-    #~/.zshrc: zshrc
+
 
 # Stuff for my bin directory
 - link:
