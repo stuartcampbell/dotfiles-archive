@@ -3,7 +3,7 @@
 - shell:
   - [mkdir -p ~/bin]
   - [mkdir -p ~/.ssh]
-  - [mkdir ~/.config]
+  - [mkdir -p ~/.config]
 
 - link:
     ~/.dotfiles: ''
@@ -16,8 +16,8 @@
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
     ~/.zprofile: zprezto/runcoms/zprofile
     ~/.zshenv: zprezto/runcoms/zshenv
-    #~/.zshrc: zprezto/runcoms/zshrc
-    ~/.zshrc: zshrc
+    ~/.zshrc: zprezto/runcoms/zshrc
+    #~/.zshrc: zshrc
 
 # Stuff for my bin directory
 - link:
