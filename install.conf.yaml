@@ -6,7 +6,7 @@
     ~/.i3: i3/
     ~/.screenrc: screenrc
     ~/.wallpapers: wallpapers
-    ~/.zpretzo: zpretzo/
+    ~/.zprezto: zprezto/
     ~/.zlogout: zprezto/runcoms/zlogout
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
     ~/.zprofile: zprezto/runcoms/zprofile
