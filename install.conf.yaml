@@ -9,6 +9,7 @@
     ~/.dotfiles: ''
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
+    ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
     ~/.wallpapers: wallpapers
 #~/.zshrc: zshrc
