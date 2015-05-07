@@ -4,6 +4,7 @@
   - [mkdir -p ~/bin]
   - [mkdir -p ~/.ssh]
   - [mkdir -p ~/.config]
+  - [mkdir -p ~/.zsh]
 
 - link:
     ~/.dotfiles: ''
