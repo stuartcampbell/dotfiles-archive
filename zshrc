@@ -5,7 +5,7 @@ fi
 
 
 
-# Allow local customizations in the ~/.zshrc_local_after file
-if [ -f ~/.zshrc_local_after ]; then
-    source ~/.zshrc_local_after
+# Allow local customizations in the ~/.zsh/post-zshrc-local file
+if [ -f ~/.zsh/post-zshrc-local ]; then
+    source ~/.zsh/post-zshrc-loca
 fi
