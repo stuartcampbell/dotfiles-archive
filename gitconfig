@@ -1,15 +1,44 @@
 # Allow local customizations in the .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local
-
-[alias]
-	update-submodules = submodule update --init --recursive
-	upgrade-submodules = submodule update --init --remote
-
+	
+[core]
+        # Global ignore file
+        excludesfile= ~/.gitglobalignore
+        
+        # Don't convert line break to CRLF. Keep CR
+        autocrlf = input
+        
+        # Remove whitespaces, use CR and indent using spaces
+        whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+        
+[branch]
+        # Always merge using rebase
+        autosetuprebase = always
+        
 [color]
 	ui = auto
 
 [push]
 	default = simple
+	
 [credential]
 	helper = cache
+	
+[help]
+	# Suggest the correct command
+	autocorrect = 1
+
+[alias]
+	update-submodules = submodule update --init --recursive
+	upgrade-submodules = submodule update --init --remote
+	
+	# The missing command <3
+	unstage = reset HEAD --
+	
+	# Undo modifications to a file
+	undo = checkout --
+	
+	# Checkout shortcut
+	co = checkout
+	
