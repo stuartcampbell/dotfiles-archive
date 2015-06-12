@@ -16,6 +16,9 @@
         # Always merge using rebase
         autosetuprebase = always
         
+[status]
+        subodulesummary = 1
+        
 [color]
 	ui = auto
 
