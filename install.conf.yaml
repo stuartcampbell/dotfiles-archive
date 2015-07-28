@@ -27,6 +27,7 @@
 # Stuff for my bin directory
 - link:
     ~/bin/cpplint.py: bin/cpplint.py
+    ~/bin/git-clang-format: bin/git-clang-format
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
