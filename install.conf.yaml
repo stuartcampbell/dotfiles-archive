@@ -16,8 +16,8 @@
 #~/.zshrc: zshrc
 
 # zprezto setup
-#- link:
-#    ~/.zprezto: zprezto/
+- link:
+    ~/.zprezto: zprezto/
 #    ~/.zlogout: zprezto/runcoms/zlogout 
 #    ~/.zpreztorc: zprezto/runcoms/zpreztorc
 #    ~/.zprofile: zprezto/runcoms/zprofile
