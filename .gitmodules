@@ -2,5 +2,5 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 [submodule "prezto"]
-	path = prezto
+	path = zprezto
 	url = https://github.com/stuartcampbell/prezto.git
