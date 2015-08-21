@@ -1,4 +1,4 @@
-- clean: ['~', '~/.config']
+- clean: ['~', '~/.config', '~/.local']
 
 - shell:
   - [mkdir -p ~/bin]
@@ -12,6 +12,7 @@
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
+    ~/.local/share/plank: local/share/plank/
     ~/.wallpapers: wallpapers
 #~/.zshrc: zshrc
 
