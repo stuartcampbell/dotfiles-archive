@@ -1,4 +1,7 @@
 - clean: ['~', '~/.config', '~/.local']
+- clean: ['~/.local/share/plank']
+- clean: ['~/.local/share/icons']
+
 
 - shell:
   - [mkdir -p ~/bin]
@@ -13,6 +16,7 @@
     ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
     ~/.local/share/plank: local/share/plank/
+    ~/.local/share/icons: local/share/icons/
     ~/.wallpapers: wallpapers
 #~/.zshrc: zshrc
 
