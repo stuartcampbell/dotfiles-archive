@@ -15,9 +15,7 @@
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
-    ~/.local/share/plank: local/share/plank/
-    ~/.local/share/icons: local/share/icons/
-    ~/.wallpapers: wallpapers
+
 #~/.zshrc: zshrc
 
 # zprezto setup
@@ -33,6 +31,16 @@
 - link:
     ~/bin/cpplint.py: bin/cpplint.py
     ~/bin/git-clang-format: bin/git-clang-format
+
+# Themes and pretty stuff...
+- shell:
+  - [mkdir -p ~/.local/share/icons]
+  - [mkdir -p ~/.local/share/plank]
+- link:
+    ~/.local/share/icons/Numix-Devel: local/share/icons/Numix-Bevel/
+    ~/.local/share/icons/hicolor: local/share/icons/hicolor/
+    ~/.local/share/plank/themes: local/share/plank/themes/
+    ~/.wallpapers: wallpapers
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
