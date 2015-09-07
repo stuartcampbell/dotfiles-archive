@@ -15,8 +15,7 @@
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
-
-#~/.zshrc: zshrc
+    ~/.vimrc: vimrc
 
 # zprezto setup
 - link:
