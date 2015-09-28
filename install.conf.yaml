@@ -11,6 +11,7 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.bashrc: bashrc
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
