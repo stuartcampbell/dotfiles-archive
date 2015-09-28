@@ -38,9 +38,10 @@
   - [mkdir -p ~/.local/share/plank/themes]
 - link:
     ~/.local/share/icons/Numix-Bevel: local/share/icons/Numix-Bevel/
+    ~/.local/share/icons/Vertex: local/share/icons/Vertex/
 #    ~/.local/share/icons/hicolor: local/share/icons/hicolor/
     ~/.local/share/plank/themes/Numix: local/share/plank/themes/Numix/
-    ~/.local/share/plank/themes/Numix: local/share/plank/themes/Arc-Plank/
+    ~/.local/share/plank/themes/Arc-Plank: local/share/plank/themes/Arc-Plank/
     ~/.wallpapers: wallpapers
 
 ### Fonts ###
