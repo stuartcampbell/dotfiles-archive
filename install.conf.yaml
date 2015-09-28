@@ -12,6 +12,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.bashrc: bashrc
+    ~/.config/powerline:  config/powerline/
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
