@@ -115,3 +115,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+if [ -f ~/.bash_paths ]; then
+    . ~/.bash_paths
+fi
+
+

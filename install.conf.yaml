@@ -12,7 +12,10 @@
 - link:
     ~/.dotfiles: ''
     ~/.bashrc: bashrc
+    ~/.bash_aliases: bash_aliases
+    ~/.bash_paths: bash_paths
     ~/.config/powerline:  config/powerline/
+    ~/.devscripts: devscripts
     ~/.gitconfig:  gitconfig
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
