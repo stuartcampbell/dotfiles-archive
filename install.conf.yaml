@@ -13,6 +13,7 @@
     ~/.dotfiles: ''
     ~/.bashrc: bashrc
     ~/.bash_aliases: bash_aliases
+    ~/.bash_functions: bash_functions
     ~/.bash_paths: bash_paths
     ~/.config/powerline:  config/powerline/
     ~/.devscripts: devscripts
