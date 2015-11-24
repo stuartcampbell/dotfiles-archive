@@ -1,0 +1,7 @@
+
+# CASTEP
+[ -d $HOME/sw/CASTEP/scripts-8.0 ] && export PATH=$HOME/sw/CASTEP/scripts-8.0:$PATH
+[ -d $HOME/sw/CASTEP/scripts-16.1 ] && export PATH=$HOME/sw/CASTEP/scripts-16.1:$PATH
+
+
+
