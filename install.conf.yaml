@@ -25,12 +25,8 @@
 
 # zprezto setup
 - link:
-    ~/.zprezto: zprezto/
-    ~/.zlogout: zprezto/runcoms/zlogout 
-    ~/.zpreztorc: zprezto/runcoms/zpreztorc
-    ~/.zprofile: zprezto/runcoms/zprofile
-    ~/.zshenv: zprezto/runcoms/zshenv
-    ~/.zshrc: zprezto/runcoms/zshrc
+    ~/.oh-my-zsh: oh-my-zsh/
+    ~/.zshrc: zshrc
 
 # Stuff for my bin directory
 - link:
