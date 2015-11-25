@@ -11,6 +11,7 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.autoenv: autoenv/
     ~/.bashrc: bashrc
     ~/.bash_aliases: bash_aliases
     ~/.bash_functions: bash_functions
@@ -23,7 +24,8 @@
     ~/.screenrc: screenrc
     ~/.vimrc: vimrc
 
-# zprezto setup
+
+# zsh setup
 - link:
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.zshrc: zshrc
