@@ -26,9 +26,12 @@
 
 
 # zsh setup
+- shell:
+  - [mkdir -p ~/.zsh]
 - link:
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.zshrc: zshrc
+    ~/.zsh/antigen: zsh/antigen/
 
 # Stuff for my bin directory
 - link:
