@@ -51,8 +51,11 @@
     ~/.wallpapers: wallpapers
 
 ### Fonts ###
+- shell:
+  - [mkdir -p ~/.config/fontconfig]
 - link:
     ~/.local/share/fonts: local/share/fonts/
+    ~/.config/fontconfig/conf.d: config/fontconfig/conf.d/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
