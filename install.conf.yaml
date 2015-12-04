@@ -1,7 +1,7 @@
 - clean: ['~', '~/.config', '~/.local']
 - clean: ['~/.local/share/plank']
 - clean: ['~/.local/share/icons']
-
+- clean: ['~/.zsh']
 
 - shell:
   - [mkdir -p ~/bin]
