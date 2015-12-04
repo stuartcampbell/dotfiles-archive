@@ -31,7 +31,7 @@
 - link:
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.zshrc: zshrc
-    ~/.zsh/antigen: zsh/antigen/
+    ~/.antigen: antigen/
 
 # Stuff for my bin directory
 - link:
