@@ -40,7 +40,6 @@
 
 # Themes and pretty stuff...
 - shell:
-  - [mkdir -p ~/.local/share/fonts]
   - [mkdir -p ~/.local/share/icons]
   - [mkdir -p ~/.local/share/plank/themes]
 - link:
@@ -52,13 +51,8 @@
     ~/.wallpapers: wallpapers
 
 ### Fonts ###
-- shell:
-  - [mkdir -p ~/.local/share/fonts]
 - link:
-    ~/.local/share/fonts/Hack-Bold.ttf: fonts/Hack/Hack-Bold.ttf    
-    ~/.local/share/fonts/Hack-BoldOblique.ttf: fonts/Hack/Hack-BoldOblique.ttf
-    ~/.local/share/fonts/Hack-Regular.ttf: fonts/Hack/Hack-Regular.ttf
-    ~/.local/share/fonts/Hack-RegularOblique.ttf: fonts/Hack/Hack-RegularOblique.ttf
+    ~/.local/share/fonts: local/share/fonts/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
