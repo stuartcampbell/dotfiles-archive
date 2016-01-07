@@ -13,6 +13,7 @@
     ~/.dotfiles: ''
     ~/.autoenv: autoenv/
     ~/.bashrc: bashrc
+    ~/.bash-git-prompt: bash-git-prompt/
     ~/.bash_aliases: bash_aliases
     ~/.bash_functions: bash_functions
     ~/.bash_paths: bash_paths
