@@ -6,6 +6,10 @@
 [ -d $HOME/sw/CASTEP/scripts-8.0 ] && export PATH=$HOME/sw/CASTEP/scripts-8.0:$PATH
 [ -d $HOME/sw/CASTEP/scripts-16.1 ] && export PATH=$HOME/sw/CASTEP/scripts-16.1:$PATH
 
+# AIIDA
+[ -d $HOME/sw/aiida ] && export PYTHONPATH=$HOME/sw/aiida:${PYTHONPATH}
+[ -d $HOME/sw/aiida/bin ] && export PATH=$HOME/sw/aiida/bin:${PATH}
+
 # my local ~/bin
 [ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
 
