@@ -214,7 +214,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
   exec --no-startup-id dropbox
   exec --no-startup-id synergy
   exec --no-startup-id dunst
-  exec compton -f
+  #exec compton -f
   exec --no-startup-id slack
 
 # statler
