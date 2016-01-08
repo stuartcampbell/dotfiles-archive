@@ -219,9 +219,10 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
   exec --no-startup-id dropbox
   exec --no-startup-id synergy
   exec --no-startup-id dunst
-  #exec compton -f
+  exec compton -f
   exec --no-startup-id slack
+  exec thunderbird
 
 # Set Primary display on STATLER
-exec_always xrandr --output DP-2 --primary
+# exec_always xrandr --output DP-2 --primary
 #exec_always xrandr --output DVI-I-1 --off --output DVI-I-0 --off --output DP-3 --mode 2560x1440 --pos 2560x0 --rotate normal --output DP-2 --mode 2560x1440 --pos 0x0 --rotate normal --output DP-1 --off --output DP-0 --off
