@@ -21,8 +21,8 @@ antigen bundle kennethreitz/autoenv
 
 # Set my theme
 #antigen theme sorin
-#antigen theme zenorocha/dracula-theme zsh/dracula
-antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+antigen theme zenorocha/dracula-theme zsh/dracula
+# antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 #antigen bundle mafredri/zsh-async
 #antigen bundle sindresorhus/pure
 #antigen theme bhilburn/powerlevel9k powerlevel9k
