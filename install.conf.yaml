@@ -1,13 +1,11 @@
 - clean: ['~', '~/.config', '~/.local']
 - clean: ['~/.local/share/plank']
 - clean: ['~/.local/share/icons']
-- clean: ['~/.zsh']
 
 - shell:
   - [mkdir -p ~/bin]
   - [mkdir -p ~/.ssh]
   - [mkdir -p ~/.config]
-  - [mkdir -p ~/.zsh]
 
 - link:
     ~/.dotfiles: ''
@@ -26,15 +24,23 @@
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
-
+    ~/.Xresources: Xresources
 
 # zsh setup
-- shell:
-  - [mkdir -p ~/.zsh]
+- clean: ['~/']
 - link:
     ~/.oh-my-zsh: oh-my-zsh/
-    ~/.zshrc: zshrc
     ~/.antigen: antigen/
+    ~/.zprezto: prezto/
+    #~/.zlogin: prezto/runcoms/zlogin
+    #~/.zlogout: prezto/runcoms/zlogout
+    #~/.zprofile: prezto/runcoms/zprofile
+    #~/.zpreztorc: prezto/runcoms/zpreztorc
+    #~/.zshenv: prezto/runcoms/zshenv
+    # Only use one of the following...
+#    ~/.zshrc: prezto/runcoms/zshrc
+    ~/.zshrc: zshrc
+    
 
 # Stuff for my bin directory
 - link:
