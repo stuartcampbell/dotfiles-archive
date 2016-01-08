@@ -24,6 +24,7 @@
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources
 
 # zsh setup

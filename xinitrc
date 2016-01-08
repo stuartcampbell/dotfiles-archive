@@ -5,3 +5,4 @@ if [ "$HOSTNAME" = statler.ornl.gov ]; then
 	./screenlayout/set-statler-primary-display.sh &
 fi
 
+exec i3
