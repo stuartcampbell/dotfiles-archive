@@ -2,9 +2,11 @@ boost
 boost-libs
 feh
 gcc-fortran
+graphviz
 hdf5-cpp-fortran
 i3-wm
 i3lock
+jsoncpp
 python-h5py
 python-pip
 
