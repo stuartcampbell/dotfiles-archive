@@ -1,0 +1,10 @@
+boost
+boost-libs
+feh
+gcc-fortran
+hdf5-cpp-fortran
+i3-wm
+i3lock
+python-h5py
+python-pip
+
