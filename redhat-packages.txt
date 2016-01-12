@@ -1,3 +1,4 @@
+ack
 boost-devel
 clang
 cmake-gui
@@ -8,6 +9,7 @@ feh
 gcc-c++
 gcc-gfortran
 git-all
+gnome-tweak-tool
 gperftools-devel
 gperftools-libs
 graphviz
@@ -53,3 +55,4 @@ sip-devel
 spotify-client
 tex-preview
 texlive-latex
+the_silver_searcher
