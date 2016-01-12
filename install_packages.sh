@@ -25,7 +25,7 @@ fedora)
   sudo dnf -y copr enable sic/science 
 
   # Now's let's install our list of packages
-  sudo dnf -y install $(cat redhat-packages.txt)
+  sudo dnf -y install $(cat fedora-packages.txt)
   ;;
 rhel)
   echo "RHEL detected"
@@ -41,6 +41,9 @@ rhel)
 
   # Now's let's install our list of packages
   sudo yum -y install $(cat redhat-packages.txt)
+  ;;
+opensuse)
+  echo "OpenSUSE detected"
   ;;
 ubuntu)
   echo "Ubuntu detected"
