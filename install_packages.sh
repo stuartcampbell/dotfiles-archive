@@ -9,6 +9,12 @@ else
   exit -1
 fi
 
+. $HOME/code/wari/wari-setup.sh
+
+add_repo spotify 
+
+exit 0
+
 case "$DISTRO" in
 fedora)
   echo "Fedora detected"
@@ -33,11 +39,10 @@ rhel)
     sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/$(rpm -E %rhel)/x86_64/epel-release-$(rpm -E %rhel)-8.noarch.rpm
   fi
   # Enable some 3rd party repos
-  sudo yum -y config-manager --add-repo=http://negativo17.org/repos/fedora-handbrake.repo
-  sudo yum -y config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
+  sudo yum-config-manager -y --add-repo=http://negativo17.org/repos/fedora-handbrake.repo
   # Enable some copr repos
-  sudo yum -y config-manager --add-repo=https://copr.fedoraproject.org/coprs/sic/science/repo/epel-7/sic-science-epel-7.repo
-  sudo yum -y config-manager --add-repo=https://copr.fedoraproject.org/coprs/sic/science/repo/epel-7/sic-backports-epel-7.repo
+  sudo yum-config-manager -y --add-repo=https://copr.fedoraproject.org/coprs/sic/science/repo/epel-7/sic-science-epel-7.repo
+  sudo yum-config-manager -y --add-repo=https://copr.fedoraproject.org/coprs/sic/science/repo/epel-7/sic-backports-epel-7.repo
 
   # Now's let's install our list of packages
   sudo yum -y install $(cat redhat-packages.txt)
