@@ -52,7 +52,10 @@
 - shell:
   - [mkdir -p ~/.local/share/icons]
   - [mkdir -p ~/.local/share/plank/themes]
+  - [mkdir -p ~/.config/gtk-3.0]
 - link:
+    ~/.gtkrc-2.0: gtkrc-2.0
+    ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
     ~/.local/share/icons/Numix-Bevel: local/share/icons/Numix-Bevel/
     ~/.local/share/icons/Vertex: local/share/icons/Vertex/
 #    ~/.local/share/icons/hicolor: local/share/icons/hicolor/
@@ -64,6 +67,7 @@
 - shell:
   - [mkdir -p ~/.config/fontconfig]
 - link:
+    ~/.fonts: fonts/
     ~/.local/share/fonts: local/share/fonts/
     ~/.config/fontconfig/conf.d: config/fontconfig/conf.d/
 
