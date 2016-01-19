@@ -29,7 +29,12 @@ libqwt5-qt4-dev
 libqwtplot3d-qt4-dev
 libssl-dev
 lxappearance
+moka-gnome-shell-theme
+moka-gtk-theme
+moka-icon-theme
 ninja-build
+paper-gtk-theme
+paper-icon-theme
 python-dateutil
 python-matplotlib
 python-numpy
@@ -38,14 +43,15 @@ python-scipy
 python-sphinx
 python-sphinx-bootstrap-theme
 qtcreator
-qt4-default
 qt4-qmake
 qt4-dev-tools
+rofi
 rxvt-unicode
 silversearcher-ag
 texlive
 texlive-latex-extra
 ubuntu-restricted-extras
 ubuntu-sdk
+ubuntu-sdk-libs-dev
 unity-tweak-tool
 
