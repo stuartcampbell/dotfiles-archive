@@ -28,6 +28,7 @@ libqscintilla2-dev
 libqwt5-qt4-dev
 libqwtplot3d-qt4-dev
 libssl-dev
+libudev-dev
 lxappearance
 moka-gnome-shell-theme
 moka-gtk-theme
@@ -54,4 +55,4 @@ ubuntu-restricted-extras
 ubuntu-sdk
 ubuntu-sdk-libs-dev
 unity-tweak-tool
-
+zsh
