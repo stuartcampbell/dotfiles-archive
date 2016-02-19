@@ -7,8 +7,9 @@ export WARI_ROOT=$HOME/code/wari
 add_repo spotify 
 add_repo epel
 add_repo sns
+add_repo mantid
 add_repo sic-science
-add_repo sic-backports-el7
+add_repo sic-backports
 
 add_repo chrome
 
