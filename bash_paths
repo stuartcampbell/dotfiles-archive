@@ -1,4 +1,6 @@
 
+export SWROOT=$HOME/software
+
 # .local stuff
 [ -d $HOME/.local/bin ] && export PATH=$HOME/.local/bin:$PATH
 
@@ -12,4 +14,12 @@
 
 # my local ~/bin
 [ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
+
+# TURBOMOLE
+if [ -d $SWROOT/TURBOMOLE ]; then
+  #echo "Setting up TurboMole"
+  export TURBODIR=$SWROOT/TURBOMOLE
+  export PATH=$TURBODIR/scripts:$PATH
+  export PATH=$TURBODIR/bin/`sysname`:$PATH
+fi
 
