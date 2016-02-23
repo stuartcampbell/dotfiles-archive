@@ -9,7 +9,7 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.autoenv: autoenv/
+#    ~/.autoenv: autoenv/
     ~/.bashrc: bashrc
     ~/.bash-git-prompt: bash-git-prompt/
     ~/.bash_aliases: bash_aliases
