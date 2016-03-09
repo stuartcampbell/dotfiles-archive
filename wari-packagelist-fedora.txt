@@ -5,6 +5,7 @@ cmake-gui
 doxygen
 dvipng
 fedora-packager
+fedrepos
 feh
 gcc-c++
 gcc-gfortran
