@@ -1,6 +1,9 @@
 [ -e "${HOME}/.zsh_aliases" ] && source "${HOME}/.zsh_aliases"
 [ -e "${HOME}/.zshrc_local" ] && source "${HOME}/.zshrc_local"
 
+# Completions
+fpath=(~/.zsh/completions $fpath) 
+autoload -U compinit && compinit
 
 # Antigen - A zsh plugin manager
 source ~/.antigen/antigen.zsh
