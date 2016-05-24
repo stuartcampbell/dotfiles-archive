@@ -59,3 +59,4 @@ spotify-client
 tex-preview
 texlive-latex
 the_silver_searcher
+tmux
