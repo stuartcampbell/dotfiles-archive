@@ -40,7 +40,7 @@ python-devel
 python-ipython
 python-ipython-notebook
 python3-ipython-notebook
-python-matplotlib
+python2-matplotlib
 python-pip
 python-sphinx
 python2-sphinx-theme-bootstrap
