@@ -2,6 +2,7 @@ ack
 boost-devel
 clang
 cmake-gui
+corkscrew
 doxygen
 dvipng
 fedora-packager
