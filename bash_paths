@@ -5,16 +5,14 @@ export SWROOT=$HOME/software
 [ -d $HOME/.local/bin ] && export PATH=$HOME/.local/bin:$PATH
 
 # CASTEP
-[ -d $HOME/sw/CASTEP/bin ] && export PATH=$HOME/sw/CASTEP/bin:$PATH
-[ -d $HOME/sw/CASTEP/scripts-8.0 ] && export PATH=$HOME/sw/CASTEP/scripts-8.0:$PATH
-[ -d $HOME/sw/CASTEP/scripts-16.1 ] && export PATH=$HOME/sw/CASTEP/scripts-16.1:$PATH
+[ -d $SWROOT/CASTEP/bin ] && export PATH=$SWROOT/CASTEP/bin:$PATH
+[ -d $SWROOT/CASTEP/scripts-8.0 ] && export PATH=$SWROOT/CASTEP/scripts-8.0:$PATH
+[ -d $SWROOT/CASTEP/scripts-16.1 ] && export PATH=$SWROOT/CASTEP/scripts-16.1:$PATH
+[ -d $SWROOT/CASTEP/scripts-16.11 ] && export PATH=$SWROOT/CASTEP/scripts-16.11:$PATH
 
 # AIIDA
-[ -d $HOME/sw/aiida ] && export PYTHONPATH=$HOME/sw/aiida:${PYTHONPATH}
-[ -d $HOME/sw/aiida/bin ] && export PATH=$HOME/sw/aiida/bin:${PATH}
-
-# my local ~/bin
-[ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
+[ -d $SWROOT/aiida ] && export PYTHONPATH=$SWROOT/aiida:${PYTHONPATH}
+[ -d $SWROOT/aiida/bin ] && export PATH=$SWROOT/aiida/bin:${PATH}
 
 # TURBOMOLE
 if [ -d $SWROOT/TURBOMOLE ]; then
@@ -25,7 +23,11 @@ if [ -d $SWROOT/TURBOMOLE ]; then
 fi
 
 # RMCProfile
-[ -d $HOME/sw/RMCProfile_package ] && export PATH=$PATH:$HOME/sw/RMCProfile_package
-[ -d $HOME/sw/RMCProfile_package/exe ] && export PATH=$PATH:$HOME/sw/RMCProfile_package/exe
+[ -d $SWROOT/RMCProfile_package ] && export PATH=$PATH:$SWROOT/RMCProfile_package
+[ -d $SWROOT/RMCProfile_package/exe ] && export PATH=$PATH:$SWROOT/RMCProfile_package/exe
 
+# ccache
+[ -d /usr/lib64/ccache/ ] && export PATH=/usr/lib64/ccache/:$PATH
 
+# my local ~/bin
+[ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
