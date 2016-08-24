@@ -26,7 +26,7 @@
 	default = simple
 	
 [credential]
-	helper = cache
+	helper = cache --timeout=7200
 	
 [help]
 	# Suggest the correct command
