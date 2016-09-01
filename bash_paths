@@ -29,5 +29,11 @@ fi
 # ccache
 [ -d /usr/lib64/ccache/ ] && export PATH=/usr/lib64/ccache/:$PATH
 
+# FullProf
+if [ -d $SWROOT/FullProf_Suite ]; then
+  export FULLPROF=$SWROOT/FullProf_Suite
+  export PATH=$FULLPROF:$PATH
+fi
+
 # my local ~/bin
 [ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
