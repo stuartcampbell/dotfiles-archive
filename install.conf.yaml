@@ -21,6 +21,7 @@
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
+    ~/.toprc: toprc
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
