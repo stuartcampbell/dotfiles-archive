@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export WARI_ROOT=$HOME/code/wari 
+export WARI_ROOT=$HOME/code/dotfiles/wari 
 
 . $WARI_ROOT/wari-setup.sh
 
@@ -9,7 +9,7 @@ add_repo epel
 add_repo sns
 add_repo mantid
 add_repo sic-science
-add_repo sic-backports
+#add_repo sic-backports
 
 add_repo chrome
 
