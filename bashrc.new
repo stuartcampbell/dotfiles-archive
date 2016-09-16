@@ -120,4 +120,13 @@ if [ -f ~/.bash_paths ]; then
     . ~/.bash_paths
 fi
 
+# Set config variables first
+GIT_PROMPT_ONLY_IN_REPO=1
+
 export OMP_NUM_THREADS=48
+
+# added by Miniconda3 3.18.3 installer
+#export PATH="/home/scu/miniconda3/bin:$PATH"
+
+# GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
+source ~/.bash-git-prompt/gitprompt.sh
