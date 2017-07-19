@@ -6,6 +6,7 @@ export SWROOT=$HOME/software
 
 # CASTEP
 [ -d $SWROOT/CASTEP/bin ] && export PATH=$SWROOT/CASTEP/bin:$PATH
+[ -d $SWROOT/CASTEP/bin ] && export PYTHONPATH=$SWROOT/CASTEP/bin:$PYTHONPATH
 [ -d $SWROOT/CASTEP/scripts-8.0 ] && export PATH=$SWROOT/CASTEP/scripts-8.0:$PATH
 [ -d $SWROOT/CASTEP/scripts-16.1 ] && export PATH=$SWROOT/CASTEP/scripts-16.1:$PATH
 [ -d $SWROOT/CASTEP/scripts-16.11 ] && export PATH=$SWROOT/CASTEP/scripts-16.11:$PATH
