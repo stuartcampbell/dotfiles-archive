@@ -15,7 +15,8 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
 # Casks
-cask "google-chrome" 
+cask 'blue-jeans-launcher'
+cask 'google-chrome'
 cask 'vlc'
 cask 'dropbox'
 cask 'evernote'
