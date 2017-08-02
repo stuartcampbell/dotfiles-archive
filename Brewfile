@@ -23,8 +23,10 @@ cask 'slack'
 cask 'skype'
 cask 'sublime'
 cask 'atom'
-cask 'github'
+cask 'github-dekstop'
 cask 'xquartz'
+cask 'lastpass'
+
 
 #brew 'watchman' # https://facebook.github.io/watchman/docs/install.html 
 
