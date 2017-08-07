@@ -2,8 +2,11 @@
 tap 'homebrew/science'
 
 brew 'bash-completion'
+brew 'exa'
 brew 'git'
+brew 'vim'
 brew 'wget'
+brew 'zsh'
 
 ## macOS specific stuff below
 
@@ -24,8 +27,8 @@ cask 'slack'
 cask 'skype'
 cask 'sublime'
 cask 'atom'
-cask 'github-desktop’
-cask ‘lastpass’
+cask 'github-desktop'
+cask 'lastpass'
 cask 'xquartz'
 cask 'lastpass'
 
