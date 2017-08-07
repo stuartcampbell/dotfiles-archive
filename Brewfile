@@ -31,6 +31,7 @@ cask 'github-desktop'
 cask 'lastpass'
 cask 'xquartz'
 cask 'lastpass'
+cask 'vivaldi'
 
 
 #brew 'watchman' # https://facebook.github.io/watchman/docs/install.html
