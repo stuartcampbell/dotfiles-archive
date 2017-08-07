@@ -15,7 +15,8 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
 # Casks
-cask "google-chrome" 
+cask 'blue-jeans-launcher'
+cask 'google-chrome'
 cask 'vlc'
 cask 'dropbox'
 cask 'evernote'
@@ -23,10 +24,10 @@ cask 'slack'
 cask 'skype'
 cask 'sublime'
 cask 'atom'
-cask 'github-dekstop'
+cask 'github-desktop’
+cask ‘lastpass’
 cask 'xquartz'
 cask 'lastpass'
 
 
-#brew 'watchman' # https://facebook.github.io/watchman/docs/install.html 
-
+#brew 'watchman' # https://facebook.github.io/watchman/docs/install.html
