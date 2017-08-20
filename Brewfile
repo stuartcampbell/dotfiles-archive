@@ -12,6 +12,7 @@ brew 'tmux'
 brew 'vim'
 brew 'wget'
 brew 'zsh'
+brew 'zsh-syntax-highlighting'
 
 ## macOS specific stuff below
 
