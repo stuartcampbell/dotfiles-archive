@@ -24,8 +24,8 @@ cask 'slack'
 cask 'skype'
 cask 'sublime'
 cask 'atom'
-cask 'github-desktop’
-cask ‘lastpass’
+cask 'github-desktop'
+cask 'lastpass'
 cask 'xquartz'
 
 #brew 'watchman' # https://facebook.github.io/watchman/docs/install.html 
