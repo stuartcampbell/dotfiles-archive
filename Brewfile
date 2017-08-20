@@ -2,8 +2,11 @@
 tap 'homebrew/science'
 
 brew 'bash-completion'
+brew 'exa'
 brew 'git'
+brew 'vim'
 brew 'wget'
+brew 'zsh'
 
 ## macOS specific stuff below
 
@@ -27,6 +30,8 @@ cask 'atom'
 cask 'github-desktop'
 cask 'lastpass'
 cask 'xquartz'
+cask 'lastpass'
+cask 'vivaldi'
 
-#brew 'watchman' # https://facebook.github.io/watchman/docs/install.html 
 
+#brew 'watchman' # https://facebook.github.io/watchman/docs/install.html
