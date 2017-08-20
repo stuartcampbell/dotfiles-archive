@@ -16,7 +16,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle rsync
 antigen bundle python
-antigen bundle virtualenvwrapper
+#antigen bundle virtualenvwrapper
 antigen bundle command-not-found
 antigen bundle history
 antigen bundle tmux
