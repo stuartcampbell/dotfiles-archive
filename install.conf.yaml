@@ -18,6 +18,8 @@
     ~/.config/powerline:  config/powerline/
     ~/.devscripts: devscripts
     ~/.gitconfig:  gitconfig
+    ~/.hyper.js: hyper.js
+    ~/.hyper_plugins: hyper_plugins
     ~/.i3: i3/
     ~/.rpmmacros: rpmmacros
     ~/.screenrc: screenrc
