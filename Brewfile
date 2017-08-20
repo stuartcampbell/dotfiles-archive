@@ -3,7 +3,12 @@ tap 'homebrew/science'
 
 brew 'bash-completion'
 brew 'exa'
+brew 'gcc'
 brew 'git'
+brew 'grace'
+brew 'hdf5'
+brew 'the_silver_searcher'
+brew 'tmux'
 brew 'vim'
 brew 'wget'
 brew 'zsh'
@@ -18,20 +23,20 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
 # Casks
+cask 'atom'
 cask 'blue-jeans-launcher'
-cask 'google-chrome'
-cask 'vlc'
 cask 'dropbox'
 cask 'evernote'
-cask 'slack'
-cask 'skype'
-cask 'sublime'
-cask 'atom'
 cask 'github-desktop'
+cask 'google-chrome'
+cask 'iterm2'
 cask 'lastpass'
-cask 'xquartz'
-cask 'lastpass'
+cask 'skype'
+cask 'slack'
+cask 'sublime-text'
 cask 'vivaldi'
+cask 'vlc'
+cask 'xquartz'
 
 
 #brew 'watchman' # https://facebook.github.io/watchman/docs/install.html
