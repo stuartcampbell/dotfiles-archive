@@ -6,7 +6,6 @@
   - [mkdir -p ~/bin]
   - [mkdir -p ~/.ssh]
   - [mkdir -p ~/.config]
-  - [mkdir -p ~/.config/fish]
 
 - link:
     ~/.dotfiles: ''
@@ -18,7 +17,9 @@
     ~/.bash_paths: bash_paths
     ~/.config/powerline:  config/powerline/
     ~/.devscripts: devscripts
-    ~/.config/fish/functions: config/fish/functions
+    ~/.config/fish/functions: 
+      create: true
+      path: config/fish/functions/
     ~/.gitconfig:  gitconfig
     ~/.hyper.js: hyper.js
     ~/.hyper_plugins: hyper_plugins
@@ -37,7 +38,7 @@
 - link:
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.antigen: antigen/
-    ~/.zprezto: prezto/
+    #~/.zprezto: prezto/
     #~/.zlogin: prezto/runcoms/zlogin
     #~/.zlogout: prezto/runcoms/zlogout
     #~/.zprofile: prezto/runcoms/zprofile
