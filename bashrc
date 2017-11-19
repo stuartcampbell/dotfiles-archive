@@ -128,5 +128,10 @@ export OMP_NUM_THREADS=48
 # added by Miniconda3 3.18.3 installer
 #export PATH="/home/scu/miniconda3/bin:$PATH"
 
+if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+	__GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
+	source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh
+fi
+
 # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
-source ~/.bash-git-prompt/gitprompt.sh
+#source ~/.bash-git-prompt/gitprompt.sh
