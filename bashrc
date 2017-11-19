@@ -1,6 +1,4 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
 
 # If not running interactively, don't do anything
 case $- in
@@ -125,9 +123,6 @@ GIT_PROMPT_ONLY_IN_REPO=1
 
 export OMP_NUM_THREADS=48
 
-# added by Miniconda3 3.18.3 installer
-#export PATH="/home/scu/miniconda3/bin:$PATH"
-
 if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 	__GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
 	source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh
@@ -135,3 +130,18 @@ fi
 
 # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
 #source ~/.bash-git-prompt/gitprompt.sh
+
+# NSLS-II Controls Network
+
+if hostname -d | grep -q cs.nsls2.local ; then
+  export http_proxy=http://proxy:8888
+  export https_proxy=http://proxy:8888
+  export no_proxy=cs.nsls2.local
+  export EPICS_BASE=/usr/lib/epics
+fi
+
+# EPICS
+export EPICS_CA_AUTO_ADDR_LIST="NO"
+export EPICS_CA_MAX_ARRAY_BYTES=10000000
+export EPICS_HOST_ARCH=linux-x86_64
+
