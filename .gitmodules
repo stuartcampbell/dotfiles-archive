@@ -1,9 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
-[submodule "prezto"]
-	path = prezto
-	url = https://github.com/stuartcampbell/prezto.git
 [submodule "local/share/icons/Vertex"]
 	path = local/share/icons/Vertex
 	url = https://github.com/horst3180/Vertex-Icons.git
