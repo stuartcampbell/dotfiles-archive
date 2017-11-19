@@ -38,3 +38,17 @@ fi
 
 # my local ~/bin
 [ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
+
+# LinuxBrew
+if [ -e "$HOME/.linuxbrew" ]; then
+	export PATH="$HOME/.linuxbrew/sbin:$PATH"
+	export PATH="$HOME/.linuxbrew/bin:$PATH"
+	export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+	export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+fi
+
+# Centrally installed conda
+if [ -e "/opt/conda" ]; then
+	export PATH="/opt/conda/bin:$PATH"
+fi
+
