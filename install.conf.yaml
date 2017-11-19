@@ -6,6 +6,7 @@
   - [mkdir -p ~/bin]
   - [mkdir -p ~/.ssh]
   - [mkdir -p ~/.config]
+  - [mkdir -p ~/.config/fish]
 
 - link:
     ~/.dotfiles: ''
@@ -17,6 +18,7 @@
     ~/.bash_paths: bash_paths
     ~/.config/powerline:  config/powerline/
     ~/.devscripts: devscripts
+    ~/.config/fish/functions: config/fish/functions
     ~/.gitconfig:  gitconfig
     ~/.hyper.js: hyper.js
     ~/.hyper_plugins: hyper_plugins
