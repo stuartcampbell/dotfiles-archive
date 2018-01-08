@@ -8,8 +8,10 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    //fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
-    fontFamily: '"SF Mono, Meslo LG L DZ for Powerline", Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: '"Source Code Pro for Powerline", "FuraCode Nerd Font", monospace',
+    //fontFamily: 'PowerlineSymbols, "SF Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    //fontFamily: '"Fira Mono for Powerline", Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    //fontFamily: 'SF Mono, "Meslo LG L DZ for Powerline", Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
@@ -33,7 +35,11 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: `
+    x-screen x-row {
+      line-height: initial;
+    }
+  `,
 
     // set to `true` (without backticks) if you're using a Linux setup that doesn't show native menus
     // default: `false` on Linux, `true` on Windows (ignored on macOS)
@@ -84,7 +90,7 @@ module.exports = {
     env: {},
 
     // set to false for no bell
-    bell: 'SOUND',
+    bell: 'false',
 
     // if true, selected text will automatically be copied to the clipboard
     copyOnSelect: false
@@ -106,8 +112,11 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
+	  "hyperterm-snazzy", 
+	  "hyper-ligatures""
   ],
 
+	  //"hyper-dracula",
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
