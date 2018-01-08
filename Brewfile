@@ -37,7 +37,7 @@ cask 'evernote'
 cask 'firefox'
 cask 'github-desktop'
 cask 'google-chrome'
-cask 'hyper'  
+cask 'hyper'
 cask 'iterm2'
 cask 'kaleidoscope'
 cask 'lastpass'
@@ -51,6 +51,9 @@ cask 'xquartz'
 
 # Fonts
 cask 'font-fira-code'
+cask 'font-firacode-nerd-font'
 cask 'font-fira-mono-for-powerline'
+#cask 'font-sourcecodepro-nerd-font'
+#cask 'font-hack-nerd-font'
 
 #brew 'watchman' # https://facebook.github.io/watchman/docs/install.html
