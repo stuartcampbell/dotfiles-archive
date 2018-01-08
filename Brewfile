@@ -1,15 +1,34 @@
 
+# specify a directory to install
+cask_args appdir: "/Applications"
+
+# Setup the 'taps'
+tap "caskroom/cask"
+tap "caskroom/fonts"
 tap 'homebrew/science'
 
+# Fuse is required to be installed 
+# for 'encfs' to work
+cask 'osxfuse'
+
+brew 'ack'
 brew 'bash-completion'
+brew 'ccache'
+brew 'cmake'
+brew 'cppcheck'
+brew 'encfs'
 brew 'exa'
+brew 'fish'
 brew 'gcc'
 brew 'git'
 brew 'grace'
 brew 'feh'
 brew 'hdf5'
 brew 'hub'
+brew 'json-fortran'
 brew 'lftp'
+brew 'nexusformat'
+brew 'ninja'
 brew 'source-highlight'
 brew 'the_silver_searcher'
 brew 'tmux'
@@ -17,6 +36,7 @@ brew 'tree'
 brew 'vim'
 brew 'wget'
 brew 'zsh'
+brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 
 ## macOS specific stuff below
@@ -24,10 +44,6 @@ brew 'zsh-syntax-highlighting'
 # Mac App Store
 brew 'mas'
 
-# specify a directory to install
-cask_args appdir: "/Applications"
-tap "caskroom/cask"
-tap "caskroom/fonts"
 
 # Casks
 cask 'atom'
