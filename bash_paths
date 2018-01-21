@@ -52,6 +52,9 @@ fi
 if [ -e "$HOME/anaconda3" ]
 then
 	. $HOME/anaconda3/etc/profile.d/conda.sh 
+elif [ -e "$HOME/conda" ]
+then
+	. $HOME/conda/etc/profile.d/conda.sh 
 elif [ -e "/usr/local/anaconda3" ]
 then
 	. /usr/local/anaconda3/etc/profile.d/conda.sh 
