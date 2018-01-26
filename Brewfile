@@ -5,7 +5,7 @@ cask_args appdir: "/Applications"
 # Setup the 'taps'
 tap "caskroom/cask"
 tap "caskroom/fonts"
-tap 'homebrew/science'
+tap 'brewsci/science'
 
 # Fuse is required to be installed 
 # for 'encfs' to work
@@ -44,20 +44,22 @@ brew 'zsh-syntax-highlighting'
 # Mac App Store
 brew 'mas'
 
-
 # Casks
 cask 'atom'
-cask 'blue-jeans-launcher'
+cask 'blue-jeans'
 cask 'dropbox'
 cask 'etcher'
 cask 'evernote'
 cask 'firefox'
-cask 'github-desktop'
+cask 'github'
 cask 'google-chrome'
 cask 'hyper'
 cask 'iterm2'
+cask 'java'
 cask 'kaleidoscope'
 cask 'lastpass'
+cask 'omnigraffle'
+cask 'omniplan'
 cask 'skype'
 cask 'slack'
 cask 'sublime-text'
