@@ -47,6 +47,7 @@ brew 'mas'
 # Casks
 cask 'atom'
 cask 'blue-jeans'
+cask 'caffeine'
 cask 'dropbox'
 cask 'etcher'
 cask 'evernote'
