@@ -54,6 +54,7 @@ then
 	. $HOME/anaconda3/etc/profile.d/conda.sh 
 elif [ -e "$HOME/conda" ]
 then
+        echo "Using conda from ~/conda"
 	. $HOME/conda/etc/profile.d/conda.sh 
 elif [ -e "/usr/local/anaconda3" ]
 then
