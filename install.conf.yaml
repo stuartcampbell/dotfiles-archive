@@ -29,7 +29,7 @@
     ~/.toprc: toprc
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
-    ~/.vimrc: vimrc
+    #    ~/.vimrc: vimrc
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources
 
