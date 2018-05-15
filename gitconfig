@@ -45,3 +45,5 @@
 	# Checkout shortcut
 	co = checkout
 	
+[user]
+	name = Stuart Campbell

@@ -47,8 +47,20 @@ if [ -e "$HOME/.linuxbrew" ]; then
 	export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 fi
 
-# Centrally installed conda
-if [ -e "/opt/conda" ]; then
-	export PATH="/opt/conda/bin:$PATH"
+# Assuming conda version > 4.4 
+# Various places conda can usually be installed
+if [ -e "$HOME/anaconda3" ]
+then
+	. $HOME/anaconda3/etc/profile.d/conda.sh 
+elif [ -e "$HOME/conda" ]
+then
+        echo "Using conda from ~/conda"
+	. $HOME/conda/etc/profile.d/conda.sh 
+elif [ -e "/usr/local/anaconda3" ]
+then
+	. /usr/local/anaconda3/etc/profile.d/conda.sh 
+else
+	echo "No conda installed :-("
 fi
+
 
