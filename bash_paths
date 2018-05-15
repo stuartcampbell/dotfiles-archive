@@ -63,4 +63,11 @@ else
 	echo "No conda installed :-("
 fi
 
+if [ -e "$HOME/repos/spack" ]
+then
+	export SPACK_ROOT="$HOME/repos/spack"
+	export PATH=$SPACK_ROOT/bin:$PATH
+	# Add shell support
+	. $SPACK_ROOT/share/spack/setup-env.sh
+fi
 
